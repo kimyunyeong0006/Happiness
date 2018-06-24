@@ -1,11 +1,23 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
+
+
+.youtubeWrap {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56%;
+  }
+  .youtubeWrap iframe {
+	position: absolute;
+	left: 25%;
+	width: 50%;
+	height: 50%;
+  }
+
+
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -21,7 +33,7 @@ section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 95%;
 	font: inherit;
 	vertical-align: baseline;}
 
@@ -51,7 +63,12 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-
+p b{
+	font-weight: 500;	
+}
+h3 b {
+	font-weight: 500;	
+}
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -91,7 +108,7 @@ input, select, textarea {
 	body {
 		background: #fff;
 		font-family: 'NanumSquare', sans-serif;
-		font-size: 19pt;
+		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -110,7 +127,7 @@ input, select, textarea {
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -2292,7 +2309,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 17pt;
+				font-size: 14pt;
 				font-family: 'NanumSquare', sans-serif;
 			}
 
@@ -2339,7 +2356,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 13pt;
 				font-family: 'NanumSquare', sans-serif;
 			}
 
@@ -2415,7 +2432,7 @@ input, select, textarea {
 			}
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 13pt;
 				font-family: 'NanumSquare', sans-serif;
 			}
 
@@ -2526,7 +2543,7 @@ input, select, textarea {
 						-moz-osx-font-smoothing: grayscale;
 						content: '\f0c9';
 						color: #fff;
-						font-size: 18px;
+						font-size: 16px;
 						line-height: 2.25em;
 						background: rgba(128, 136, 144, 0.5);
 						border-radius: 0.35em;
@@ -2599,12 +2616,12 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 14pt;
+				font-size: 11pt;
 				font-family: 'NanumSquare', sans-serif;
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 1.4em;
 				letter-spacing: 0;
 				font-weight: 300;
 			}
@@ -2617,7 +2634,7 @@ input, select, textarea {
 
 			ul.icons a {
 				width: 2em;
-				font-size: 1.25em;
+				font-size: 1.2em;
 			}
 
 		/* Main */
